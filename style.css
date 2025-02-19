@@ -1,0 +1,117 @@
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+       font-family: 'Inter', sans-serif;
+         background-color: var(--Grey900)
+    }
+    :root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        color: var(--White); 
+        position: absolute; 
+        bottom: 10px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+    }
+    .attribution a { 
+        color: var(--Green); 
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+         z-index: 2;
+        }
+    .box{
+        width: 320px;
+        height: auto;
+        background-color: var(--Grey800);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
+        padding: 30px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+    }
+    .box-text{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-img{
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        margin-bottom: 10px;
+    }
+    .box-name{
+     margin-bottom: 0px;
+     color: var(--White);
+     font-weight: 500;
+     font-size: 1.7rem;
+    }
+    .box-address{
+    margin-top: 5px;
+    color: var(--Green);
+    font-size: 0.9rem;
+    font-weight: 600;
+    }
+    .box-p{
+    margin: 10px;
+    color: var(--White);
+    opacity: 0.7;
+    font-size: 0.8rem;
+    }
+
+    .box-btn{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .box-a {
+        text-decoration: none;
+        color: var(--White);
+        padding: 15px 20px;
+        background-color: var(--Grey700);
+        border-radius: 10px;
+        margin: 8px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        font-weight: 600;
+        font-size: 0.9rem;
+        /* padding-right: 600px;
+        padding-left:  600px; */
+    }
+
+    .box-a:hover {
+        background-color: var(--Green);
+        color: var(--Grey900);
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
